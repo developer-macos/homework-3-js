@@ -1,0 +1,24 @@
+img {
+    height: 200px;
+    background-color: #f0f0f0;
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0; /* Початково приховані */
+  }
+  
+  /* Коли зображення завантажене — робимо його видимим */
+  img.loaded {
+    opacity: 1;
+  }
+  
+  /* Стиль кнопки */
+  #loadImagesBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
